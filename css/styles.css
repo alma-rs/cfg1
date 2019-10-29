@@ -1,0 +1,97 @@
+body {
+    background-color: #f2e6ff;
+    color: rgb(12, 0, 26);
+    font-family: arial;
+    font-size: 23px;
+    margin: 150px;
+
+}
+img {
+    width: 300px;
+    padding: 0px;
+    border:10px solid rgb(53, 0, 102);
+    display: flex;
+    margin: 0 auto;
+    border-radius: 200px;
+}
+
+
+
+div {
+
+    min-height: 20vh;
+    width: 80vw;
+
+}
+
+h1, h2 {
+
+    text-align: center;
+    font-family: courier;
+    color: rgb(53, 0, 102);
+
+}
+h1 {
+
+    font-size: 5em;
+    color: rgb(201, 153, 255);
+    text-shadow: -1px -1px 0 #21004d, 1px -1px 0 #21004d, -1px 1px 0 #21004d, 1px 1px 0 #21004d;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+
+
+}
+
+a {
+
+    color: rgb(197, 153, 255);
+
+}
+
+ol {
+
+    list-style: none;
+    color: rgb(53, 0, 102);
+    text-shadow: -0.5px -0.5px 0 #21004d, 0.5px -0.5px 0 #21004d, -0.5px 0.5px 0 #21004d, 0.5px 0.5px 0 #21004d;
+    font-family: courier;
+    padding: 0;
+    margin-bottom: 10%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+li#lower {
+
+    margin-top: 7%;
+
+}
+li#lowest {
+
+    margin-top: 14%;
+
+}
+div.contrast {
+    background-color: rgb(38, 0, 77);
+    color: rgb(243, 230, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+}
+
+
+li {
+    margin: 0 20px
+    transition: 1s ease;
+}
+li:hover {
+    font-size: 1.5em;
+    transition: 0.6s ease;
+}
+
+img:hover {
+    transform: scale(2);
+    transition: 0.6s ease;
+}
